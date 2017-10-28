@@ -36,7 +36,7 @@ function hover_off(i) {
 jQuery(function() {
     var austDay = new Date(),
         coundown_cont = jQuery('#pm_counter');
-    austDay = new Date(2017, 11-1, 22);
+    austDay = new Date(2017, 11-1, 1);
 
     if (coundown_cont.length) {
         jQuery(coundown_cont).countdown({

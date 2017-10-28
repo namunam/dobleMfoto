@@ -8,6 +8,7 @@
     <meta name="author" content="DobleMfoto">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
+
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 
@@ -38,12 +39,39 @@
     <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 </head>
 
-<body class="pm_dark_type page-template-page-about">
+<body class="pm_dark_type page-template-page-contacts pm_overflow_hidden">
     <!-- Preloader -->
     <div class="preloader_active">
         <div class="pm_preloader_load_back">
             <div class="pm_preloader_border"></div>
             <div class="pm_preloader_load_line"></div>
+        </div>
+    </div>
+
+    <!-- Sharing Popup -->
+    <div class="pm_sharing_back">
+        <div class="pm_popup_close" onclick="share_popup_close()"></div>
+        <div class="pm_popup_share_wrapper">
+            <a target="_blank"
+               class="pm_share_facebook"
+               href="http://www.facebook.com/share.php?u=http://pm-html-travis/contacts-full/">
+                <i class="fa fa-facebook-square"></i>
+            </a>
+            <a target="_blank"
+               class="pm_share_twitter"
+               href="https://twitter.com/intent/tweet?text=travis&amp;url=http://pm-html-travis/contacts-full/">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a target="_blank"
+               class="pm_share_guugle_plus"
+               href="https://plus.google.com/share?url=http://pm-html-travis/contacts-full/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+            <a target="_blank"
+               class="pm_share_pinterest"
+               href="http://pinterest.com/pin/create/button/?url=http://pm-html-travis/contacts-full/&media=http://pm-html-travis/img/logo-dark.png">
+                <i class="fa fa-pinterest"></i>
+            </a>
         </div>
     </div>
 
@@ -126,7 +154,7 @@
     </div>
 
     <!-- Content -->
-    <div class="pm_post_container">
+    <div class="pm_post_container page_type_fullwidth">
         <div class="pm_post_container_wrapper">
             <div class="pm_post_wrapper">
 
@@ -138,24 +166,37 @@
                             <span class="pm_likes_counter">0</span>
                         </div>
                     </div>
-                    <div class="pm_about_form_button pm_desktop"></div>
+                    <div class="pm_contacts_form_button"></div>
                     <div class="clear"></div>
                 </div>
 
                 <div class="pm_media_output">
-                    <div class="pm_media_output_wrapper" style="background: url('img/clipart/gallery-1920-04.jpg') no-repeat center"></div>
+                    <div class="pm_media_output_wrapper">
+                        <div class="pm_media_output_cont">
+                            <div class="pm_media_output_cont_wrapper" style="background: url('img/clipart/gallery-1920-04.jpg') no-repeat center;"></div>
+                        </div>
+                    </div>
                 </div>
                 <div class="pm_content_block">
                     <div class="pm_content_container cscrollbar pm_scroll_container">
                         <div class="pm_content_container_wrapper">
                             <div class="pm_post_title_cont">
-                                Who the f#ck I am?
+                                Get in touch with Me!
                             </div>
                             <div class="pm_content">
-                                <p>Who is the one after DobleMfoto brand?</p>
-                                <p>Hi, I'm Manu, a 21-year-old photographer based on Valencia, Spain. </p>
-                                <p>Meter terminos y condiciones de uso.</p>
-                                
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus neque, malesuada sit eget amet commodo a, sollicitudin in nulla. Duis sed dui consectetur, faucibus diam sit amet, blandit ligula lorem pellentesque eleifend vestibulum facilisis integer ac lobortis sapien quisque a lacus et risus dictum pulvinar. vel id leo. Pellentesque hendrerit pulvinar neque ac ornare sociis.</p>
+                                <p>Magnis dis parturient montes, nascetur ridiculus mus. Sed quis neque sit amet diam luctus feugiat vel nec tortor. Ut vitae ultrices nibh, quis gravida ipsum. Quisque euismod dolor eu neque sollicitudin, at pulvinar lectus malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Mauris eros lacus, mollis ac felis eget, faucibus tempus tellus etiam mollis ultricies ligula ac maximus proin at sem molestie.</p>
+                                <div class="pm_contacts_socials_container">
+
+                                    <a href="https://www.facebook.com/DobleMfoto/" class="pm_contacts_social_button"><i class="fa fa-facebook-square"></i></a>
+
+                                    <a href="https://twitter.com/dobleMfoto" class="pm_contacts_social_button"><i class="fa fa-twitter"></i></a>
+
+                                    <a href="https://www.flickr.com/photos/namunam/" class="pm_contacts_social_button"><i class="fa fa-flickr"></i></a>
+
+                                    <a href="https://www.instagram.com/doblemfoto/" class="pm_contacts_social_button"><i class="fa fa-instagram"></i></a>
+                                </div>
+                                <div class="clear"></div>
                             </div>
                             <div class="pm_post_likes_wrapper pm_desktop">
                                 <div class="pm_add_like_button">
@@ -163,12 +204,12 @@
                                     <span class="pm_likes_counter">985</span>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pm_about_form_button pm_desktop"></div>
-            </div>
-        </div>
-    </div>
+                        </div><!-- pm_content_container_wrapper -->
+                    </div><!-- pm_content_container -->
+                </div><!-- pm_content_block -->
+                <div class="pm_contacts_form_button pm_desktop"></div>
+            </div><!-- pm_post_wrapper -->
+        </div><!-- pm_post_container_wrapper -->
+    </div><!-- pm_post_container -->
 </body>
 </html>
